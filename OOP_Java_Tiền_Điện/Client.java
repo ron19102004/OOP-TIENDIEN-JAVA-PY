@@ -1,5 +1,3 @@
-package OOP;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Objects;
@@ -7,7 +5,6 @@ import java.util.Scanner;
 
 public class Client {
     private String fullNameOfClient,electricMeterCode,apartmentNumber;
-
     public void enterInfo(ArrayList<Client> cln){
         Scanner input = new Scanner(System.in);
         int isError = 0;
